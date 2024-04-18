@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.ota {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+header {
+  background-color: #232536;
+  padding: 15px 0 15px;
+  position: fixed;
+  width: 100%;
+}
+
+.bola1 h1 {
+  font-weight: normal;
+  font-size: 30px;
+}
+
+.bola1 a {
+  color: #fff;
+}
+
+.bola2 a {
+  padding: 0 10px 0;
+  color: #fff;
+  font-size: 15px;
+}
+
+.bola2 {
+  padding: 0 0 0 300px;
+}
+
+.bola3 button {
+  padding: 10px 45px 10px;
+  background-color: rgb(15, 19, 56);
+  border: none;
+  border-radius: 7px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+footer {
+  background-color: #232536;
+}
+
+.ota10 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+}
+
+.ota10 p {
+  font-size: 13px;
+}
+
+.bola10 {
+  padding: 35px 0 0;
+}
+
+.nm {
+  padding: 10px 0 35px;
+}
+
+.bola11 {
+  padding: 35px 0 35px;
+}
+
+.bola11 {
+  padding: 35px 0 35px;
+}
+
+.bola4 img {
+  width: 50px;
+  height: 50px;
+}
+
+.bola4 {
+  display: none;
+}
+
+.bolaka input {
+  height: 50px;
+  width: 1200px;
+  border: 1px solid gray;
+}
+
+.bolaka {
+    padding: 150px 0 75px;
+}
+
+.bolaka2 {
+  padding-bottom: 40px;
+}
+
+.bolaka2 h1 {
+  font-size: 40px;
+  color: #232536;
+}
+
+
+.bolaka input::placeholder {
+    padding-left: 20px;
+}
+
+.bo {
+  padding: 0px 0 50px;
+}
+
+
+/* -----------------------mesia uchun ---------------------- */
+
+@media (max-width: 950px) {
+  .bola2 {
+    padding: 0 75px 0 0;
+  }
+
+  .ota3 {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+  }
+}
+
+@media (max-width: 715px) {
+  .bola2 {
+    display: none;
+  }
+
+  .bola3 {
+    display: none;
+  }
+
+  .bola4 {
+    display: block;
+  }
+}
+
+@media (max-width: 650px) {
+  .bolacha h1 {
+    font-size: 30px;
+  }
+
+  .bolacha p {
+    font-size: 15px;
+  }
+
+  .main1 {
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 1115px) {
+  .ota3 img {
+    width: 300px;
+  }
+
+  .ota3 p {
+    font-size: 13px;
+  }
+
+  .ota3 h2 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1080px) {
+  .ota4 {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+  }
+}
+
+@media (max-width: 450px) {
+  .ota10 {
+    flex-wrap: wrap;
+  }
+}

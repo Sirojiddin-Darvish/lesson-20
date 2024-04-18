@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .ota {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+  }
+  
+  header {
+    background-color: #232536;
+    padding: 15px 0 15px;
+    position: fixed;
+    width: 100%;
+  }
+  
+  .bola1 h1 {
+    font-weight: normal;
+    font-size: 30px;
+  }
+  
+  .bola1 a {
+    color: #fff;
+  }
+  
+  .bola2 a {
+    padding: 0 10px 0;
+    color: #fff;
+    font-size: 15px;
+  }
+  
+  .bola2 {
+    padding: 0 0 0 300px;
+  }
+  
+  .bola3 button {
+    padding: 10px 45px 10px;
+    background-color: rgb(15, 19, 56);
+    border: none;
+    border-radius: 7px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: normal;
+  }
+  
+  .main1 {
+    background-image: url(../images/orqafon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    padding: 100px 0 100px;
+  }
+  
+  span {
+    color: rgb(133, 133, 13);
+  }
+  
+  .bolacha {
+    padding-top: 120px;
+    color: #fff;
+  }
+  
+  .bolacha h3 {
+    font-weight: normal;
+  }
+  
+  .bolacha h1 {
+    font-size: 40px;
+    font-weight: 600;
+    padding: 25px 0 25px;
+  }
+  
+  .o {
+    padding: 15px 0 50px;
+  }
+  
+  .bolacha button {
+    padding: 15px 50px 15px;
+    background-color: rgb(212, 212, 45);
+    border: none;
+    font-size: 15px;
+    color: #232536;
+    font-weight: 900;
+  }
+  
+  .bolacha p {
+    font-size: 17px;
+  }
+  
+  .span {
+    color: blue;
+  }
+  
+  .ota3 {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+  }
+  
+  .ota3 img {
+    width: 370px;
+  }
+  
+  .sui {
+    padding: 20px 0 0;
+  }
+  
+  .ota3 h2 {
+    padding: 20px 0 20px;
+  }
+  
+  .main2 {
+    margin-top: 100px;
+  }
+  
+  .bolakay h1 {
+    padding-bottom: 75px;
+  }
+  
+  .ota4 {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .divcha h1 {
+    text-align: center;
+    padding: 50px 0 50px;
+  }
+  
+  .card4 img {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+  
+  .card4 h3 {
+    padding: 10px 0 10px;
+  }
+  
+  .card4 {
+    padding: 25px 25px 25px;
+    border: 1px solid gray;
+    margin-bottom: 40px;
+    
+  }
+  
+.card4 a {
+  color:#000;
+}
+
+  footer {
+    background-color: #232536;
+  }
+  
+  .ota10 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+  }
+  
+  .ota10 p {
+    font-size: 13px;
+  }
+  
+  .bola10 {
+    padding: 35px 0 0;
+  }
+  
+  .nm {
+    padding: 10px 0 35px;
+  }
+  
+  .bola11 {
+    padding: 35px 0 35px;
+  }
+  
+  .bola11 {
+    padding: 35px 0 35px;
+  }
+  
+  .bola4 img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .bola4 {
+    display: none;
+  }
+  
+  .card4:hover {
+    box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.69);
+    -webkit-box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.69);
+    -moz-box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.69);
+    background-color: #ffd050;
+    color: #fff;
+  }
+  
+.ota4 a {
+  color: #000;
+}
+
+  /* -----------------------mesia uchun ---------------------- */
+  
+  @media (max-width: 950px) {
+    .bola2 {
+      padding: 0 75px 0 0;
+    }
+  
+    .ota3 {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 50px;
+    }
+  }
+  
+  @media (max-width: 715px) {
+    .bola2 {
+      display: none;
+    }
+  
+    .bola3 {
+      display: none;
+    }
+  
+    .bola4 {
+      display: block;
+    }
+  }
+  
+  @media (max-width: 650px) {
+    .bolacha h1 {
+      font-size: 30px;
+    }
+  
+    .bolacha p {
+      font-size: 15px;
+    }
+  
+    .main1 {
+      object-fit: cover;
+    }
+  }
+  
+  @media (max-width: 1115px) {
+    .ota3 img {
+      width: 300px;
+    }
+  
+    .ota3 p {
+      font-size: 13px;
+    }
+  
+    .ota3 h2 {
+      font-size: 20px;
+    }
+  }
+  
+  @media (max-width: 1080px) {
+    .ota4 {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 50px;
+    }
+  }
+  
+  @media (max-width: 450px) {
+    .ota10 {
+      flex-wrap: wrap;
+    }
+  }
+  
